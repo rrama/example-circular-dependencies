@@ -1,0 +1,29 @@
+{
+  "name": "example-circular-dependencies-2-polo",
+  "version": "1.0.0",
+  "description": "An example of a package with a circular dependency.",
+  "keywords": [
+    "example",
+    "circular",
+    "dependencies",
+    "dependency"
+  ],
+  "homepage": "https://github.com/rrama/example-circular-dependencies#readme",
+  "bugs": {
+    "url": "https://github.com/rrama/example-circular-dependencies/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrama/example-circular-dependencies.git",
+    "directory": "example-circular-dependencies-2-polo"
+  },
+  "license": "ISC",
+  "author": "rrama",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "example-circular-dependencies-2-marco": "1.0.0"
+  }
+}
